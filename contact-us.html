@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Specifies the character encoding for the HTML document. We are using Unicode which is the most common. -->
+    <meta charset="utf-8">
+    <!-- This gives the browser instructions on how to control the page's dimensions and scaling. -->
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <!-- Name of my site -->
+    <title>Contact Us | Cat Rescue</title>
+    <!-- My Stylesheet, we will cover this next time -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Sets the image shown in the browser tab and on different devices as a shortcut -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="row">
+            <div class="logoBlock">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="cat rescue logo" />
+                </a>
+                <h1>Cat Rescue</h1>
+            </div>
+            <ul>
+                <li>
+                    <a href="our-mission.html">Our Mission</a>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="pageIntro">
+            <div>
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+        <div class="contentBlock row">
+            <section>
+                <h2>Call Us</h2>
+                <p><a href="tell:+15555555555">555-555-5555</a></p>
+                <h2>Send a Message</h2>
+                <form>
+                    <div>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstName">
+                    </div>
+                    <div>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastName">
+                    </div>
+                    <div>
+                        <label for="email">Email <span>(required)</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea type="text" id="message" name="message"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="submit">
+                    </div>
+                </form>
+            </section>
+            <section>
+                <h2>Our Location</h2>
+                <p><a href="https://goo.gl/maps/zgcFLzdk36FnXtrg8"> <span>2100 Royce st Suit b</span>Colombuia SC 29091</a></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186586.22995069512!2d-79.22811823021638!3d43.053847074006285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3445eec824db9%3A0x46d2c56156bda288!2sNiagara%20Falls%2C%20ON!5e0!3m2!1sen!2sca!4v1604169740330!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </section>
+        </div>
+    </main>
+    <footer>
+        &#169; 2020 Cat Rescue
+    </footer>
+
+
+</body>
+
+</html>
