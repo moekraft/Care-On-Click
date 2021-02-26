@@ -8,6 +8,9 @@ body {
   /*color: #5a5a5a;*/
   color: #000000; /* foreground or text color */
 }
+.nav-link {
+  color: #000000; /* foreground or text color */
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
