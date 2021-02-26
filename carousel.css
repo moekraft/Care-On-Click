@@ -12,6 +12,14 @@ body {
   color: #000000; /* foreground or text color */
 }
 
+.navbar-dark {
+  color: #000000;
+}
+
+.navbar-nav {
+  color: #000000;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
