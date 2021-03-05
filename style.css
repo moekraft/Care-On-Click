@@ -1,0 +1,43 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-color:#DAEBEF;
+}
+
+h1 {
+  text-align: center;
+  margin: 4%;
+  color: #8A9B9F;
+}
+.about{
+}
+
+.our-values {
+  margin-top: 3%;
+  margin-bottom: 3%;
+ padding:2%;
+}
+.col-sm-8{
+   background-color:white;
+  padding-top:2%;
+  padding-bottom:2%;
+}
+
+.col-sm-8 h4{
+  background-color:#A4C4E0;
+  color:white;
+}
+.our-purpose {
+  text-align: right;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.click-here{
+  text-align:center;
+}
+
+.about img{
+  border:grey 5px solid;
+}
