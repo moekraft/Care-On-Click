@@ -5,6 +5,10 @@ body {
   background-color:#DAEBEF;
 }
 
+.nav-link {
+  color: red;
+}
+
 h1 {
   text-align: center;
   margin: 4%;
