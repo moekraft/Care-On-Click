@@ -9,7 +9,15 @@ body {
   color: #000000; /* foreground or text color */
 }
 .nav-link {
-  color: #000000; /* foreground or text color */
+  color: red; /* foreground or text color */
+}
+
+.navbar-dark {
+  color: #000000;
+}
+
+.navbar-nav {
+  color: #000000;
 }
 
 
