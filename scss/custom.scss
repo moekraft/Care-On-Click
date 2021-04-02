@@ -16,6 +16,9 @@
 // 2. Include any default variable overrides here!
 $nav-tabs-link-active-color:        red;
 $navbar-light-color:                red;
+$navbar-light-hover-color:          rgba($indigo-100, .9);
+$navbar-light-active-color:         blue;
+$navbar-light-disabled-color:       rgba($black, .5);
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../bootstrap-5.0.0-beta2/scss/variables";
@@ -66,10 +69,6 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   /*color: #5a5a5a;*/
-  color: #000000; /* foreground or text color */
-}
-// Just a test.
-.nav-link {
   color: #000000; /* foreground or text color */
 }
 
