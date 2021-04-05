@@ -1,0 +1,2 @@
+# Ignore bootstrap files when building
+bootstrap*
