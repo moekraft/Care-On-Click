@@ -2,7 +2,7 @@
 bootstrap-5.0.0-beta2
 
 # Ignore Mac system files
-.DS_store
+.DS_Store
 
 # Ignore node_modules folder
 #node_modules
@@ -11,7 +11,7 @@ bootstrap-5.0.0-beta2
 *.txt
 
 # Ignore files related to API keys
-.env
+# .env
 
 # Ignore SASS config files
-.sass-cache
+# .sass-cache
